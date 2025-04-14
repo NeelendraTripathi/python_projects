@@ -1,7 +1,8 @@
 import random
 i=0
 choice =input("Roll the choice(Y/N)? ").lower()
-
+# changes made 
+changes = 'true'
 if choice =='y':
     die1=random.randint(1,6)
     die2=random.randint(1,6)
